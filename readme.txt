@@ -1,1 +1,1 @@
-plantilla angular laravel con token bearer
+plantilla angular laravel api con token bearer
