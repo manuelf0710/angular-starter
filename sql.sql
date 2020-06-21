@@ -27,7 +27,8 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `conjunto`
 --
-
+drop database citovirtual_dev;
+create database citovirtual_dev;
 DROP TABLE IF EXISTS `conjunto`;
 CREATE TABLE IF NOT EXISTS `conjunto` (
   `id_conjunto` int(11) NOT NULL AUTO_INCREMENT,
